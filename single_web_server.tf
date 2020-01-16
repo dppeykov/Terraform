@@ -34,3 +34,4 @@ resource "aws_security_group" "instance" {
 
 # Just creating a security group is not enough - we need to tell the servet to use it by passing the ID of the security group into the vpc_security_group_ids argument of the aws_instance resource.
 # resource attribute reference format: <PROVIDER>_<TYPE>.<NAME>.<ATTRIBUTE>
+######################################################################################
